@@ -1,7 +1,3 @@
-USE ecommerce;
-
-DROP TABLE IF EXISTS retail_sales;
-
 CREATE TABLE retail_sales (
     Row_id TEXT,
     Order_id TEXT,
@@ -26,8 +22,6 @@ CREATE TABLE retail_sales (
     Profit REAL
 );
 
-
-SHOW VARIABLES LIKE 'secure_file_priv';
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Retail_Sales_Dataset.csv'
 INTO TABLE retail_sales
 CHARACTER SET latin1
@@ -38,7 +32,7 @@ IGNORE 1 ROWS;
 
 -- Check for the NULLs in the Table
 SELECT * FROM retail_sales
-WHERE Order_id IS NULL OR Product_Name IS NULL OR SALES IS NULL; 
+WHERE Order_id IS NULL OR Product_Name IS NULL OR Sales IS NULL; 
 
 -- Calculate Profit Margins by Category/Sub-Category
 SELECT
