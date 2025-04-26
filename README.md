@@ -9,7 +9,7 @@ This project presents a comprehensive analysis of retail sales performance, inve
 
 - `Retail_Sales_Dataset.csv` – Raw dataset
 
-- `Retail Sales Analysis Project Report.pdf` – Final report
+- `Retail Business Performance & Profitability Analysis Project Report.pdf` – Final report
 
 - `Retail_Sales_Dashboard.pdf` – Power BI dashboard report
 
