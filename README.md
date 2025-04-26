@@ -1,5 +1,5 @@
 # Internship-Projects
-## 🛒 Retail Sales Analysis Project
+## 🛒 Retail Business Perfomance & Profitability Analysis Project
 This project presents a comprehensive analysis of retail sales performance, inventory efficiency, and profitability. By integrating SQL, Python, and Power BI, it delivers actionable business insights for strategic decision-making in retail operations.
 
 ## 📂 Files
